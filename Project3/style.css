@@ -1,0 +1,132 @@
+html{
+    height:100%;
+   background: radial-gradient(circle) 
+}
+#container{
+    height:700px;
+    width:800px;
+    background-image: url(green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 100px auto;
+    padding:22px;
+    border-radius:10px;
+    box-shadow: 4px 4px 9px 0px;
+    position: relative;
+}
+#Score{
+    position: absolute;
+    padding: 16px;
+    background-image: url(yellow.jpg);
+    background-size: cover;
+    left:730px;
+    border-radius:4px;
+    box-shadow: 2px 3px 0px 0px black;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+#Correct{
+    position: absolute;
+    left: 260px;
+    background-color: green;
+    padding:12px;
+    color: snow;
+    border-radius: 4px;
+    display: none;
+    
+}
+#Wrong{
+    position: absolute;
+    left: 250px;
+    background-color: red;
+    padding:12px;
+    color: snow;
+    border-radius: 4px;
+    display:none;
+     
+}
+#question
+{
+    width: 700px;
+    height:510px;
+    background-image:url(wood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin:65px auto 10px auto;
+    border-radius:10px;
+    font-size: 100px;
+    text-align: center;
+    box-shadow:0px 3px 0px 0px; 
+    line-height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+#instruction
+{
+    width: 450px;
+    height:50px;
+    background-color:antiquewhite;
+    margin:10px auto 10px auto;
+    border-radius:10px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    box-shadow:0px 3px 0px 0px;
+}
+#Start{
+     width:80px;
+    padding:10px;
+    margin: 0 auto;
+    border-radius:5px;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 4px rgba(0,0,0, 0.12);
+    position:relative;
+    transition: all 0.2s;
+}
+#liferemaining{
+    position: absolute;
+    padding:20px;
+    width: 155px;
+   
+/*
+    background-image:url(red.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+    border-radius:4px;
+    box-shadow: 0px 3px rgba(0,0,0, 0.4);
+    color:white;
+    /*visibility: hidden;*/
+    display: none;
+}
+#gameover{
+    height:270px;
+    width:560px;
+    background-image: url(gameover.jpg);
+    background-size:560px 290px;
+    background-repeat: no-repeat;
+    color:white;
+    font-size:3em;
+    line-height:160px;
+    text-align: center;
+    
+    text-transform: uppercase;
+    position: absolute;
+    top: 190px;
+    left: 140px;
+    z-index: 2;
+
+   display:none;
+    
+}
+.life{
+    height: 30px;
+    width:30px;
+    margin:0 6px;
+}
+#fruit1{
+    display:none;
+    position:absolute;
+}
